@@ -3,7 +3,7 @@ using namespace std;
 int sum_of_prime(int num);
 int main() {
    int num , i;
-   cout << "Enter a number : ";
+   cout << "Enter a Positive Integer : ";
    cin >> num;
    for(i = 2; i <= num/2; ++i) {
       if (sum_of_prime(i)) {
